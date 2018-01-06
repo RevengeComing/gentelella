@@ -1,3 +1,5 @@
+# It's RTL version of gentelella
+
 # gentelella
 
 Gentelella Admin is a free to use Bootstrap admin template.

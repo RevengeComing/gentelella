@@ -1,6 +1,6 @@
 
 html , body{
-	
+    direction: rtl;
  height:100%;
  
 }
@@ -49,7 +49,7 @@ html , body{
     border-radius: 0px !important
 }
 .daterangepicker select.monthselect {
-    margin-right: 2%
+    margin-left: 2%
 }
 .daterangepicker td.in-range {
     background: #E4E7EA;
@@ -166,7 +166,7 @@ html , body{
 }
 .nav-sm .container.body .right_col {
     padding: 10px 20px;
-    margin-left: 70px;
+    margin-right: 70px;
     z-index: 2
 }
 .nav-sm .navbar.nav_title {
@@ -190,7 +190,7 @@ html , body{
 }
 .nav-sm .main_container .top_nav {
     display: block;
-    margin-left: 70px;
+    margin-right: 70px;
     z-index: 2
 }
 .nav-sm .nav.side-menu li a {
@@ -222,7 +222,7 @@ html , body{
     margin-bottom: 5px
 }
 .nav-sm ul.nav.child_menu {
-    left: 100%;
+    right: 100%;
     position: absolute;
     top: 0;
     width: 210px;
@@ -243,7 +243,7 @@ html , body{
     margin-bottom: 35px
 }
 .menu_section h3 {
-    padding-left: 15px;
+    padding-right: 15px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .5px;
@@ -254,7 +254,8 @@ html , body{
     text-shadow: 1px 1px #000
 }
 .menu_section>ul {
-    margin-top: 10px
+    margin-top: 10px;
+    padding-right: 0px;
 }
 .profile_pic {
     width: 35%;
@@ -263,7 +264,7 @@ html , body{
 .img-circle.profile_img {
     width: 70%;
     background: #fff;
-    margin-left: 15%;
+    margin-right: 15%;
     z-index: 1000;
     position: inherit;
     margin-top: 10px;
@@ -312,7 +313,7 @@ html , body{
 }
 .active a span.fa {
     text-align: right !important;
-    margin-right: 4px
+    margin-left: 4px
 }
 .nav-sm .menu_section {
     margin: 0
@@ -355,7 +356,7 @@ body .container.body .right_col {
 }
 .nav-md .container.body .right_col {
     padding: 10px 20px 0;
-    margin-left: 230px
+    margin-right: 230px
 }
 .nav_title {
     width: 230px;
@@ -375,7 +376,7 @@ body .container.body .right_col {
     }
     .nav-md .container.body .right_col {
         width: 100%;
-        padding-right: 0
+        padding-left: 0
     }
     .right_col {
         padding: 10px !important
@@ -500,7 +501,7 @@ body {
 }
 .main_container .top_nav {
     display: block;
-    margin-left: 230px
+    margin-right: 230px
 }
 .no-padding {
     padding: 0 !important
@@ -571,7 +572,7 @@ table.no-margin .progress {
 }
 @media (min-width: 192px) and (max-width: 1270px) {
     table.tile_info span.right {
-        margin-right: 7px;
+        margin-left: 7px;
         float: left
     }
 }
@@ -631,12 +632,12 @@ table.no-margin .progress {
     position: relative;
     min-height: 1px;
     float: left;
-    padding-right: 10px;
-    padding-left: 10px
+    padding-left: 10px;
+    padding-right: 10px
 }
 .row {
-    margin-right: -10px;
-    margin-left: -10px
+    margin-left: -10px;
+    margin-right: -10px
 }
 .grid_slider .col-md-6 {
     padding: 0 40px
@@ -680,7 +681,7 @@ a:focus {
     background: #34495E
 }
 .navbar-right {
-    margin-right: 0
+    margin-left: 0
 }
 .top_nav .navbar-right {
     margin: 0;
@@ -743,17 +744,17 @@ a:focus {
     background-color: rgba(255, 255, 255, 0.06)
 }
 .nav.child_menu li {
-    padding-left: 36px
+    padding-right: 36px
 }
 .nav-md ul.nav.child_menu li:before {
     background: #425668;
     bottom: auto;
     content: "";
     height: 8px;
-    left: 23px;
+    right: 23px;
     margin-top: 15px;
     position: absolute;
-    right: auto;
+    left: auto;
     width: 8px;
     z-index: 1;
     border-radius: 50%
@@ -762,7 +763,7 @@ a:focus {
     border-left: 1px solid #425668;
     bottom: 0;
     content: "";
-    left: 27px;
+    right: 27px;
     position: absolute;
     top: 0
 }
@@ -809,7 +810,7 @@ a:focus {
 .navbar-nav>li>a {
     font-weight: 500;
     color: #ECF0F1 !important;
-    margin-left: 0 !important;
+    margin-right: 0 !important;
     line-height: 32px
 }
 .site_title {
@@ -819,12 +820,12 @@ a:focus {
     font-size: 22px;
     width: 100%;
     color: #ECF0F1 !important;
-    margin-left: 0 !important;
+    margin-right: 0 !important;
     line-height: 59px;
     display: block;
     height: 55px;
     margin: 0;
-    padding-left: 10px
+    padding-right: 10px
 }
 .site_title:hover,
 .site_title:focus {
@@ -850,7 +851,7 @@ a:focus {
     border-right: 0;
     box-shadow: inset 0 1px 0px rgba(0, 0, 0, 0.075);
     border-radius: 25px 0px 0px 25px;
-    padding-left: 20px;
+    padding-right: 20px;
     border: 1px solid rgba(221, 226, 232, 0.49)
 }
 .top_search .form-control:focus {
@@ -916,22 +917,22 @@ footer {
     display: block
 }
 .nav-sm footer {
-    margin-left: 70px
+    margin-right: 70px
 }
 .footer_fixed footer {
     position: fixed;
-    left: 0px;
+    right: 0px;
     bottom: 0px;
     width: 100%
 }
 @media (min-width: 768px) {
     .footer_fixed footer {
-        margin-left: 0
+        margin-right: 0
     }
 }
 @media (min-width: 768px) {
     .footer_fixed .nav-sm footer {
-        margin-left: 0
+        margin-right: 0
     }
 }
 .tile-stats.sparkline {
@@ -1025,7 +1026,7 @@ h2 {
     border: 1px solid #C0392B;
     padding: 6px 10px 5px;
     font-size: 13px;
-    margin-right: 7px
+    margin-left: 7px
 }
 .detail {
     margin: 10px 0 10px 0px;
@@ -1088,7 +1089,7 @@ h2 {
     white-space: nowrap
 }
 .x_title h2 small {
-    margin-left: 10px
+    margin-right: 10px
 }
 .x_title span {
     color: #BDBDBD
@@ -1162,7 +1163,7 @@ legend {
 }
 .pagination.pagination-split li {
     display: inline-block;
-    margin-right: 3px
+    margin-left: 3px
 }
 .pagination.pagination-split li a {
     border-radius: 4px;
@@ -1188,7 +1189,7 @@ table.tile td {
 }
 table.tile td ul {
     text-align: left;
-    padding-left: 0
+    padding-right: 0
 }
 table.tile td ul li {
     list-style: none;
@@ -1198,9 +1199,9 @@ table.tile td ul li a {
     width: 100%
 }
 table.tile td ul li a big {
-    right: 0;
+    left: 0;
     float: right;
-    margin-right: 13px
+    margin-left: 13px
 }
 table.tile_info {
     width: 100%
@@ -1218,7 +1219,7 @@ table.tile_info td p {
     line-height: 28px
 }
 table.tile_info td i {
-    margin-right: 8px;
+    margin-left: 8px;
     font-size: 17px;
     float: left;
     width: 18px;
@@ -1330,10 +1331,10 @@ table.jambo_table tbody tr.selected td {
 .dataTables_processing {
     position: absolute;
     top: 50%;
-    left: 50%;
+    right: 50%;
     width: 250px;
     height: 30px;
-    margin-left: -125px;
+    margin-right: -125px;
     margin-top: -15px;
     padding: 14px 0 2px 0;
     border: 1px solid #ddd;
@@ -1491,7 +1492,7 @@ ul.msg_list li a .image img {
     border-radius: 2px 2px 2px 2px;
     -webkit-border-radius: 2px 2px 2px 2px;
     float: left;
-    margin-right: 10px;
+    margin-left: 10px;
     width: 11%
 }
 ul.msg_list li a .time {
@@ -1499,7 +1500,7 @@ ul.msg_list li a .time {
     font-style: italic;
     font-weight: bold;
     position: absolute;
-    right: 35px
+    left: 35px
 }
 ul.msg_list li a .message {
     display: block !important;
@@ -1514,7 +1515,7 @@ ul.msg_list li a .message {
     display: none;
     float: left;
     font-size: 12px;
-    left: 0;
+    right: 0;
     list-style: none outside none;
     padding: 0;
     position: absolute;
@@ -1534,8 +1535,8 @@ ul.msg_list li a .message {
     margin-top: 0;
     border: 1px solid #D9DEE4;
     -webkit-box-shadow: none;
-    right: 0;
-    left: auto;
+    left: 0;
+    right: auto;
     width: 220px
 }
 .navbar-nav .open .dropdown-menu.msg_list {
@@ -1547,7 +1548,7 @@ ul.msg_list li a .message {
     line-height: 13px;
     padding: 2px 6px;
     position: absolute;
-    right: 2px;
+    left: 2px;
     top: 8px
 }
 ul.to_do {
@@ -1575,13 +1576,13 @@ ul.to_do p {
     border-bottom: 1px solid #c1cdcd;
     margin: 0 0 10px 0;
     padding-bottom: 5px;
-    padding-left: 40px;
+    padding-right: 40px;
     line-height: 30px
 }
 .dashboard-widget .dashboard-widget-title i {
     font-size: 100%;
-    margin-left: -35px;
-    margin-right: 10px;
+    margin-right: -35px;
+    margin-left: 10px;
     color: #33a1c9;
     padding: 3px 6px;
     border: 1px solid #abd9ea;
@@ -1590,11 +1591,11 @@ ul.to_do p {
 }
 ul.quick-list {
     width: 45%;
-    padding-left: 0;
+    padding-right: 0;
     display: inline-block
 }
 ul.quick-list li {
-    padding-left: 10px;
+    padding-right: 10px;
     list-style: none;
     margin: 0;
     padding-bottom: 6px;
@@ -1604,7 +1605,7 @@ ul.quick-list li {
     overflow: hidden
 }
 ul.quick-list li i {
-    padding-right: 10px;
+    padding-left: 10px;
     color: #757679
 }
 .dashboard-widget-content {
@@ -1652,10 +1653,10 @@ ul.quick-list li i {
 }
 h5.graph_title {
     text-align: left;
-    margin-left: 10px
+    margin-right: 10px
 }
 h5.graph_title i {
-    margin-right: 10px;
+    margin-left: 10px;
     font-size: 17px
 }
 span.right {
@@ -1702,7 +1703,7 @@ span.right {
 }
 @media (min-width: 992px) {
     footer {
-        margin-left: 230px
+        margin-right: 230px
     }
 }
 @media (min-width: 992px) {
@@ -1715,7 +1716,7 @@ span.right {
 .tile_count .tile_stats_count:before {
     content: "";
     position: absolute;
-    left: 0;
+    right: 0;
     height: 65px;
     border-left: 2px solid #ADB2B5;
     margin-top: 10px
@@ -1766,7 +1767,7 @@ a.user-profile {
     width: 29px;
     height: 29px;
     border-radius: 50%;
-    margin-right: 10px
+    margin-left: 10px
 }
 ul.top_profiles {
     height: 330px;
@@ -1793,7 +1794,7 @@ ul.top_profiles li:nth-child(odd) {
 .media .date {
     background: #ccc;
     width: 52px;
-    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 10px;
     padding: 5px
 }
@@ -1829,7 +1830,7 @@ h4.graph_title {
     display: block;
     line-height: 32px;
     height: 32px;
-    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 4px
 }
 .fontawesome-icon-list .fa-hover a:hover .fa {
@@ -1841,7 +1842,7 @@ h4.graph_title {
     font-size: 16px;
     display: inline-block;
     text-align: right;
-    margin-right: 10px
+    margin-left: 10px
 }
 .main_menu .fa {
     width: 26px;
@@ -1893,7 +1894,7 @@ h4.graph_title {
     height: 20px;
     color: #BAB8B8;
     position: absolute;
-    right: 53px;
+    left: 53px;
     top: 22px;
     z-index: 1
 }
@@ -1914,7 +1915,7 @@ h4.graph_title {
 .tile-stats p {
     position: relative;
     margin: 0;
-    margin-left: 10px;
+    margin-right: 10px;
     z-index: 5;
     padding: 0
 }
@@ -1949,10 +1950,10 @@ table.tile_info {
     padding: 10px 15px
 }
 table.tile_info span.right {
-    margin-right: 0;
+    margin-left: 0;
     float: right;
     position: absolute;
-    right: 4%
+    left: 4%
 }
 .tile:hover {
     text-decoration: none
@@ -2015,12 +2016,12 @@ button,
 .btn,
 .modal-footer .btn+.btn {
     margin-bottom: 5px;
-    margin-right: 5px
+    margin-left: 5px
 }
 .btn-group-vertical .btn,
 .btn-group .btn {
     margin-bottom: 0;
-    margin-right: 0
+    margin-left: 0
 }
 .mail_list_column {
     border-left: 1px solid #DBDBDB
@@ -2037,7 +2038,7 @@ button,
 .mail_list .left {
     width: 5%;
     float: left;
-    margin-right: 3%
+    margin-left: 3%
 }
 .mail_list .right {
     width: 90%;
@@ -2077,14 +2078,14 @@ button,
 .attachment ul {
     width: 100%;
     list-style: none;
-    padding-left: 0;
+    padding-right: 0;
     display: inline-block;
     margin-bottom: 30px
 }
 .attachment ul li {
     float: left;
     width: 150px;
-    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 10px
 }
 .attachment ul li img {
@@ -2107,7 +2108,7 @@ button,
     padding: 0;
     position: fixed;
     bottom: 0;
-    right: 0;
+    left: 0;
     background: #fff;
     border: 1px solid #D9DEE4;
     border-right: 0;
@@ -2185,8 +2186,8 @@ legend {
     color: inherit
 }
 .form-horizontal .form-group {
-    margin-right: 0;
-    margin-left: 0
+    margin-left: 0;
+    margin-right: 0
 }
 .form-control-feedback {
     margin-top: 8px;
@@ -2197,17 +2198,17 @@ legend {
 }
 .form-control-feedback.left {
     border-right: 1px solid #ccc;
-    left: 13px
+    right: 13px
 }
 .form-control-feedback.right {
     border-left: 1px solid #ccc;
-    right: 13px
+    left: 13px
 }
 .form-control.has-feedback-left {
-    padding-left: 45px
+    padding-right: 45px
 }
 .form-control.has-feedback-right {
-    padding-right: 45px
+    padding-left: 45px
 }
 .form-group {
     margin-bottom: 10px
@@ -2235,7 +2236,7 @@ p.parsley-error {
 ul.parsley-errors-list {
     list-style: none;
     color: #E74C3C;
-    padding-left: 0
+    padding-right: 0
 }
 input.parsley-error,
 textarea.parsley-error,
@@ -2252,7 +2253,7 @@ select.parsley-error {
     border: 1px solid #CE5454;
     box-shadow: 0 0 4px -2px #CE5454;
     position: relative;
-    left: 0;
+    right: 0;
     -moz-animation: .7s 1 shake linear;
     -webkit-animation: 0.7s 1 shake linear
 }
@@ -2270,7 +2271,7 @@ select.parsley-error {
     max-width: 170px;
     white-space: pre;
     position: relative;
-    left: -15px;
+    right: -15px;
     opacity: 0;
     z-index: 1;
     transition: 0.15s ease-out
@@ -2284,11 +2285,11 @@ select.parsley-error {
     border-style: solid;
     border-width: 11px 7px;
     position: absolute;
-    left: -13px;
+    right: -13px;
     top: 1px
 }
 .item.bad .alert {
-    left: 0;
+    right: 0;
     opacity: 1
 }
 .inl-bl {
@@ -2308,7 +2309,7 @@ select.parsley-error {
     content: "Example";
     position: absolute;
     top: 15px;
-    left: 15px;
+    right: 15px;
     font-size: 12px;
     font-weight: bold;
     color: #bbb;
@@ -2404,7 +2405,7 @@ a.btn-danger {
 .btn.btn-app>.badge {
     position: absolute;
     top: -3px;
-    right: -10px;
+    left: -10px;
     font-size: 10px;
     font-weight: 400
 }
@@ -2445,7 +2446,7 @@ textarea:focus {
     overflow: hidden
 }
 .bs-glyphicons-list {
-    padding-left: 0;
+    padding-right: 0;
     list-style: none
 }
 .bs-glyphicons li {
@@ -2475,8 +2476,8 @@ textarea:focus {
 }
 @media (min-width: 768px) {
     .bs-glyphicons {
-        margin-right: 0;
-        margin-left: 0
+        margin-left: 0;
+        margin-right: 0
     }
     .bs-glyphicons li {
         width: 12.5%;
@@ -2499,7 +2500,7 @@ span.tag {
     text-decoration: none;
     background: #1ABB9C;
     color: #F1F6F7;
-    margin-right: 5px;
+    margin-left: 5px;
     font-weight: 500;
     margin-bottom: 5px;
     font-family: helvetica
@@ -2542,7 +2543,7 @@ ul.bar_tabs {
     background: #F5F7FA;
     height: 25px;
     margin: 21px 0 14px;
-    padding-left: 14px;
+    padding-right: 14px;
     position: relative;
     z-index: 1;
     width: 100%;
@@ -2552,7 +2553,7 @@ ul.bar_tabs>li {
     border: 1px solid #E6E9ED;
     color: #333 !important;
     margin-top: -17px;
-    margin-left: 8px;
+    margin-right: 8px;
     background: #fff;
     border-bottom: none;
     border-radius: 4px 4px 0 0
@@ -2575,7 +2576,7 @@ ul.bar_tabs>li.active a {
     border-bottom: none
 }
 ul.bar_tabs.right {
-    padding-right: 14px
+    padding-left: 14px
 }
 ul.bar_tabs.right li {
     float: right
@@ -2593,19 +2594,19 @@ ul.timeline li {
     border-left: 3px solid #e8e8e8;
     overflow: visible;
     padding: 10px 15px;
-    margin-left: 105px
+    margin-right: 105px
 }
 .timeline.widget {
     min-width: 0;
     max-width: inherit
 }
 .timeline.widget .block {
-    margin-left: 5px
+    margin-right: 5px
 }
 .timeline .tags {
     position: absolute;
     top: 15px;
-    left: 0;
+    right: 0;
     width: 84px
 }
 .timeline .tag {
@@ -2631,7 +2632,7 @@ ul.timeline li {
     height: 30px;
     width: 0;
     position: absolute;
-    left: 100%;
+    right: 100%;
     top: 0;
     margin: 0;
     pointer-events: none;
@@ -2647,7 +2648,7 @@ ul.timeline li {
 .timeline h2.title:before {
     content: "";
     position: absolute;
-    left: -23px;
+    right: -23px;
     top: 3px;
     display: block;
     width: 14px;
@@ -2734,7 +2735,7 @@ ul.social li {
 .chart canvas {
     position: absolute;
     top: 0;
-    left: 0
+    right: 0
 }
 .percent {
     display: inline-block;
@@ -2744,7 +2745,7 @@ ul.social li {
 }
 .percent:after {
     content: '%';
-    margin-left: 0.1em;
+    margin-right: 0.1em;
     font-size: .8em
 }
 .angular {
@@ -2803,7 +2804,7 @@ ul.widget_profile_box {
     padding: 3px;
     background: #ececec;
     margin-top: 40px;
-    margin-left: 1px
+    margin-right: 1px
 }
 ul.widget_profile_box li:first-child {
     width: 25%;
@@ -2882,7 +2883,7 @@ ul.widget_profile_box li .profile_img {
 }
 ul.count2 {
     width: 100%;
-    margin-left: 1px;
+    margin-right: 1px;
     border: 1px solid #ddd;
     border-left: 0;
     border-right: 0;
@@ -2934,8 +2935,8 @@ ul.messages li .message_date {
     text-align: right
 }
 ul.messages li .message_wrapper {
-    margin-left: 50px;
-    margin-right: 40px
+    margin-right: 50px;
+    margin-left: 40px
 }
 ul.messages li .message_wrapper h4.heading {
     font-weight: 600;
@@ -2997,7 +2998,7 @@ ul.stats-overview li .value {
     display: block
 }
 ul.stats-overview li:first-child {
-    padding-left: 0
+    padding-right: 0
 }
 ul.project_files li {
     margin-bottom: 5px
@@ -3072,7 +3073,7 @@ ul.project_files li a i {
     width: 85px;
     height: 88px;
     top: -3px;
-    right: -3px
+    left: -3px
 }
 .ui-ribbon-container.ui-ribbon-primary .ui-ribbon {
     background-color: #5b90bf
@@ -3086,7 +3087,7 @@ ul.project_files li a i {
     color: #fff;
     transform: rotate(45deg);
     padding: 7px 0;
-    left: -5px;
+    right: -5px;
     top: 15px;
     width: 120px;
     line-height: 20px;
@@ -3098,11 +3099,11 @@ ul.project_files li a i {
     border-top: 2px solid #5b90bf
 }
 .ui-ribbon-container .ui-ribbon:before {
-    left: 0;
+    right: 0;
     bottom: -1px
 }
 .ui-ribbon-container .ui-ribbon:before {
-    right: 0
+    left: 0
 }
 .ui-ribbon-container .ui-ribbon:after,
 .ui-ribbon-container .ui-ribbon:before {
@@ -3141,7 +3142,7 @@ ul.project_files li a i {
     width: 100%;
     overflow: hidden;
     top: 0;
-    left: 0
+    right: 0
 }
 .view img {
     display: block;
@@ -3251,10 +3252,10 @@ ul.project_files li a i {
     margin-bottom: 2px
 }
 .tabs-left>li {
-    margin-right: -1px
+    margin-left: -1px
 }
 .tabs-right>li {
-    margin-left: -1px
+    margin-right: -1px
 }
 .tabs-left>li.active>a,
 .tabs-left>li.active>a:hover,
@@ -3270,7 +3271,7 @@ ul.project_files li a i {
 }
 .tabs-left>li>a {
     border-radius: 4px 0 0 4px;
-    margin-right: 0;
+    margin-left: 0;
     display: block;
     background: #F7F7F7;
     text-overflow: ellipsis;
@@ -3278,7 +3279,7 @@ ul.project_files li a i {
 }
 .tabs-right>li>a {
     border-radius: 0 4px 4px 0;
-    margin-right: 0;
+    margin-left: 0;
     background: #F7F7F7;
     text-overflow: ellipsis;
     overflow: hidden
@@ -3307,10 +3308,10 @@ ul.project_files li a i {
     border-left-color: #ddd
 }
 .sideways.tabs-left {
-    left: -50px
+    right: -50px
 }
 .sideways.tabs-right {
-    right: -50px
+    left: -50px
 }
 .sideways.tabs-right>li {
     transform: rotate(90deg)
@@ -3408,7 +3409,7 @@ a.hiddenanchor {
     display: none
 }
 .login_wrapper {
-    right: 0px;
+    left: 0px;
     margin: 0px auto;
     margin-top: 5%;
     max-width: 350px;
@@ -3464,11 +3465,11 @@ a.hiddenanchor {
 }
 .alignleft {
     float: left;
-    margin-right: 15px
+    margin-left: 15px
 }
 .alignright {
     float: right;
-    margin-left: 15px
+    margin-right: 15px
 }
 .clearfix:after,
 form:after {
@@ -3510,12 +3511,12 @@ form:after {
 .login_content h1:after {
     background: #7e7e7e;
     background: linear-gradient(left, #7e7e7e 0%, #fff 100%);
-    right: 0
+    left: 0
 }
 .login_content h1:before {
     background: #7e7e7e;
     background: linear-gradient(right, #7e7e7e 0%, #fff 100%);
-    left: 0
+    right: 0
 }
 .login_content h1:before,
 .login_content h1:after {
@@ -3528,12 +3529,12 @@ form:after {
 .login_content h1:after {
     background: #7e7e7e;
     background: linear-gradient(left, #7e7e7e 0%, #fff 100%);
-    right: 0
+    left: 0
 }
 .login_content h1:before {
     background: #7e7e7e;
     background: linear-gradient(right, #7e7e7e 0%, #fff 100%);
-    left: 0
+    right: 0
 }
 .login_content form {
     margin: 20px 0;
@@ -3576,7 +3577,7 @@ form:after {
 }
 .login_content div .reset_pass {
     margin-top: 13px !important;
-    margin-right: 39px;
+    margin-left: 39px;
     float: right
 }
 .separator {
@@ -3598,7 +3599,7 @@ form:after {
 .login_content form input[type="submit"],
 #content form .submit {
     float: left;
-    margin-left: 38px
+    margin-right: 38px
 }
 .button a {
     background: url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) 0 -112px no-repeat;
@@ -3721,11 +3722,11 @@ fieldset {
     max-width: 100%
 }
 .cropper .docs-preview {
-    margin-right: -15px
+    margin-left: -15px
 }
 .cropper .img-preview {
     float: left;
-    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
     overflow: hidden
 }
@@ -3747,7 +3748,7 @@ fieldset {
 .cropper .preview-xs {
     width: 35px;
     height: 20px;
-    margin-right: 0
+    margin-left: 0
 }
 .cropper .docs-data>.input-group {
     margin-bottom: 10px
@@ -3761,7 +3762,7 @@ fieldset {
 .cropper .docs-buttons>.btn,
 .cropper .docs-buttons>.btn-group,
 .cropper .docs-buttons>.form-control {
-    margin-right: 5px;
+    margin-left: 5px;
     margin-bottom: 10px
 }
 .cropper .docs-toggles>.btn,
@@ -3794,17 +3795,17 @@ fieldset {
 }
 @media (max-width: 400px) {
     .cropper .btn-group-crop {
-        margin-right: -15px !important
+        margin-left: -15px !important
     }
     .cropper .btn-group-crop>.btn {
-        padding-left: 5px;
-        padding-right: 5px
+        padding-right: 5px;
+        padding-left: 5px
     }
     .cropper .btn-group-crop .docs-tooltip {
-        margin-left: -5px;
         margin-right: -5px;
-        padding-left: 5px;
-        padding-right: 5px
+        margin-left: -5px;
+        padding-right: 5px;
+        padding-left: 5px
     }
 }
 .cropper .docs-options .dropdown-menu {
@@ -3868,7 +3869,7 @@ fieldset {
     top: 20px;
     width: 100%;
     z-index: 4;
-    left: 0
+    right: 0
 }
 .wizard_horizontal ul.wizard_steps li a.disabled .step_no {
     background: #ccc
@@ -3896,12 +3897,12 @@ fieldset {
     color: #fff
 }
 .wizard_horizontal ul.wizard_steps li:first-child a:before {
-    left: 50%
+    right: 50%
 }
 .wizard_horizontal ul.wizard_steps li:last-child a:before {
-    right: 50%;
+    left: 50%;
     width: 50%;
-    left: auto
+    right: auto
 }
 .wizard_verticle .stepContainer {
     width: 80%;
@@ -3928,7 +3929,7 @@ fieldset {
 .wizard_verticle .wizard_content {
     width: 80%;
     float: left;
-    padding-left: 20px
+    padding-right: 20px
 }
 .wizard_verticle ul.wizard_steps {
     display: table;
@@ -3965,7 +3966,7 @@ fieldset {
     top: 20px;
     width: 4px;
     z-index: 4;
-    left: 49%
+    right: 49%
 }
 .wizard_verticle ul.wizard_steps li a.disabled .step_no {
     background: #ccc
@@ -3993,11 +3994,11 @@ fieldset {
     color: #fff
 }
 .wizard_verticle ul.wizard_steps li:first-child a:before {
-    left: 49%
+    right: 49%
 }
 .wizard_verticle ul.wizard_steps li:last-child a:before {
-    left: 49%;
-    left: auto;
+    right: 49%;
+    right: auto;
     width: 0
 }
 .form_wizard .loader {
@@ -4096,7 +4097,7 @@ ul.verticle_bars li {
 .custom-notifications {
     position: fixed;
     margin: 15px;
-    right: 0;
+    left: 0;
     float: right;
     width: 400px;
     z-index: 4000;
@@ -4116,7 +4117,7 @@ ul.notifications {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3)
 }
 .notifications li:last-child {
-    margin-left: 0
+    margin-right: 0
 }
 .notifications a {
     display: block;
@@ -4226,12 +4227,12 @@ ul.notifications {
 .checkbox input:disabled ~ div 																			{ background: #1ABC9C;opacity: 0.6;pointer-events: none; }
 .checkbox div:after 																							{ content: '';position: absolute;display: none; }
 .checkbox input:checked ~ div:after 																	{ display: block; }
-.checkbox-wp div:after 																					{ left: 7px;top: 3px;width: 7px;height: 11px;border: solid #fff;border-width: 0 2px 2px 0;transform: rotate(40deg); }
+.checkbox-wp div:after 																					{ right: 7px;top: 3px;width: 7px;height: 11px;border: solid #fff;border-width: 0 2px 2px 0;transform: rotate(40deg); }
 .checkbox-wp input:disabled ~ div:after 																{ border-color: #F2F2F2; }
 
 
 .checkbox-radio div 																							{ border-radius: 50%; }
-.checkbox-radio div:after 																					{ left: 7px;top: 7px;height: 6px;width: 6px;border-radius: 50%;background: #fff; }
+.checkbox-radio div:after 																					{ right: 7px;top: 7px;height: 6px;width: 6px;border-radius: 50%;background: #fff; }
 .checkbox-radio input:disabled ~ div:after 															{ background: #F2F2F2; }
 
 
