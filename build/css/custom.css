@@ -274,7 +274,7 @@ html , body{
 .profile_info {
     padding: 10px;
     width: 65%;
-    float: left
+    float: right;
 }
 .profile_info span {
     font-size: 13px;
