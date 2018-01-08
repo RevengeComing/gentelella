@@ -631,7 +631,7 @@ table.no-margin .progress {
 .col-lg-12 {
     position: relative;
     min-height: 1px;
-    float: left;
+    float: right;
     padding-left: 10px;
     padding-right: 10px
 }
@@ -1500,7 +1500,7 @@ ul.msg_list li a .time {
     font-style: italic;
     font-weight: bold;
     position: absolute;
-    left: 35px
+    right: 35px
 }
 ul.msg_list li a .message {
     display: block !important;
@@ -1536,7 +1536,6 @@ ul.msg_list li a .message {
     border: 1px solid #D9DEE4;
     -webkit-box-shadow: none;
     left: 0;
-    right: auto;
     width: 220px
 }
 .navbar-nav .open .dropdown-menu.msg_list {
@@ -4254,3 +4253,6 @@ table thead .checkbox.radio { margin-top:-7px;margin-top:-21px; }
     background-color: #ffff !important;
 }
 /** /bootstrap-datetimepicker **/
+.dropdown-menu {
+    text-align:right;
+}
