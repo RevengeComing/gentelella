@@ -1394,6 +1394,9 @@ table.display thead th:active,
 table.display thead td:active {
     outline: none
 }
+th {
+    text-align: right;
+}
 .dataTables_scroll {
     clear: both
 }
