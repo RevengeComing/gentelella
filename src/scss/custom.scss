@@ -693,7 +693,7 @@ a:hover, a:focus {
 }
 footer {
   background: #fff;
-  padding: 15px 20px;
+  padding: 10px 20px;
   display: block;
 }
 
@@ -3479,6 +3479,9 @@ a.hiddenanchor {
 }
 .left {
   float: left;
+}
+.calendar.left {
+  float: initial !important;
 }
 .alignleft {
   float: left;

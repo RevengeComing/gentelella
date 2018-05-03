@@ -11,9 +11,14 @@ We would love to see how you use this awesome admin template. You can notify us 
 
 
 ## Theme Demo
-![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg "Gentelella Theme Browser Preview")
+![Gentelella Bootstrap Admin Template](https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/gentelella-admin-template-preview.jpg 
+"Gentelella Theme Browser Preview")
 
 **[Template Demo](https://colorlib.com/polygon/gentelella/index.html)**
+
+## Documentation
+
+**[Documentation](https://puikinsh.github.io/gentelella/)**
 
 ## Installation via Package Manager
 
@@ -31,6 +36,12 @@ bower install gentelella --save
 
 ```
 npm install gentelella --save
+```
+
+**yarn**
+
+```
+yarn add gentelella --save
 ```
 ## How to contribute
 To contribute, please ensure that you have stable [Node.js](https://nodejs.org/) and [npm](https://npmjs.com) installed.
@@ -59,6 +70,7 @@ If `gulp` is installed, follow the steps below.
 * [Gentelella on Django](https://github.com/GiriB/django-gentelella) Gentelella modified to fit as a Django app
 * [Gentelella on Flask](https://github.com/afourmy/flask-gentelella) Gentelella modified to fit as a Flask app
 * [Gentelella on CakePHP 3](https://github.com/backstageel/cakephp-gentelella-theme) Gentelella modified to work on CakePHP
+* [Gentelella right to left](https://github.com/mortezakarimi/gentelella-rtl) Gentelella modified to work with right to left languages like Persian
 
 Let us know if you have done integration for this admin template on other platforms and frameworks and we'll be happy to share your work.
 
